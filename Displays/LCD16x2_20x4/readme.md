@@ -5,11 +5,30 @@ Example for 16x2:
 Example for 20x4:
 `LiquidCrystal_I2C lcd(0x3F,20,4);`
 
-Now if you are done with this, you need to find out the LCD's address. It's very easy! First, plug your LCD correctly to your Arduino, here's how:
+Now if you are done with this, you need to find out the LCD's address. It's very easy! First, connect your LCD to your Arduino, here's how:
 
 Arduino        | SDA           | SCL           |
 :------------- | ------------- | ------------- |
 UNO/Nano       | A4            | A5            |
 Mega           | Pin 20        | Pin 21        |
 
+Here's a circuit diagram for UNO:
 
+![](https://raw.githubusercontent.com/stephenmiller04/SUArduinoCollection/master/Displays/LCD16x2_20x4/UNO_circuit_diagram.png)
+
+And for Mega:
+
+![](https://raw.githubusercontent.com/stephenmiller04/SUArduinoCollection/master/Displays/LCD16x2_20x4/MEGA_circuit_diagram.png)
+
+Now open the I2C scanner, upload it to your arduino, and open up the serial monitor in the Arduino IDE, and it shows you the address!
+```
+I2C Scanner
+Scanning...
+I2C device found at address 0x3F  !
+done
+```
+
+My address is `0x3F` and my LCD is 16x2 so my code look like this:
+`LiquidCrystal_I2C lcd(0x3F,16,2);`
+
+And that's it! Now you got a working LCD!
