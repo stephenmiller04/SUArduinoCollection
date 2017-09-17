@@ -34,3 +34,5 @@ My address is `0x3F` and my LCD is 16x2 so my code look like this:
 `LiquidCrystal_I2C lcd(0x3F,16,2);`
 
 And that's it! Now you got a working LCD!
+
+Stephen Miller © 2017 [www.stephenmiller.hu](http://www.stephenmiller.hu)
