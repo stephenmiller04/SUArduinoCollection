@@ -1,5 +1,9 @@
 ## 16x2, 20x4 etc... LCD Tutorial
-In this folder you can find the correct library for I2C LCD's, it works with many types of LCD's, like 16x2, 16x4, 20x4, 20x2 etc... Just write the correct column and row number in the code!
+In this folder you can find the correct library and an example code for I2C LCD's, it works with many types of LCD's, like 16x2, 16x4, 20x4, 20x2 etc...
+
+Put the `LiquidCrystal_I2C` folder (you can find it in the `libraries`) to your `Documents/Arduino/libraries`!
+
+Now write the correct column and row number in the code!
 
 Example for 16x2:
 `LiquidCrystal_I2C lcd(0x3F,16,2);`
