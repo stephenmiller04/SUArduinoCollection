@@ -1,4 +1,6 @@
 # Stephen's Ultimate Arduino Collection
+
+###### (Updated frequently)
 Hello there! If you are searching for tutorials, how to use sensors and other accessories with **Arduino**, you come to the right place!
 
 ## What is this?
